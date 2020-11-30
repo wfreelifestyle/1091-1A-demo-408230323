@@ -129,7 +129,30 @@ a {
 .shop-page {
   display: flex;
 
-  .title {
-    text-align: center;
+  .collection-page {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .collection-item {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        .collection-footer {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
   }
 }
