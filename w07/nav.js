@@ -4,12 +4,12 @@ function change(index) {
   console.log('p', p);
   switch (index) {
     case 1:
-      p.innerHTML = '<iframe width=100% height=100% src="./w01-intro_pokemon/intro.html">';
+      p.innerHTML = '<iframe width=100% height=100% src="./w01-intro_pokemon/w01-intro.html">';
 
       break;
 
     case 2:
-      p.innerHTML = '<iframe width=100% height=100% src="./w01-intro_pokemon/pokemon.html">';
+      p.innerHTML = '<iframe width=100% height=100% src="./w01-intro_pokemon/w01-pokemon.html">';
       break;
 
     case 3:
