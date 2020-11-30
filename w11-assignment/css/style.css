@@ -165,4 +165,36 @@ a {
 .shop-page .collection-page .items .collection-item .custom-button {
   margin-top: 15px;
 }
+
+.shop-page {
+  display: flex;
+}
+
+.shop-page .title {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.shop-page .preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop-page .preview .collection-item {
+  padding: 10px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.shop-page .preview .collection-item .image {
+  width: 321px;
+  height: 350px;
+}
+
+.shop-page .preview .collection-item .collection-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -168,3 +168,36 @@ a {
     }
   }
 }
+
+//Overview
+.shop-page {
+  display: flex;
+
+  .title {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .collection-item {
+      padding: 10px;
+      overflow: hidden;
+      height: 400px;
+
+      .image {
+        width: 321px;
+        height: 350px;
+      }
+
+      .collection-footer {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+      }
+    }
+  }
+}
