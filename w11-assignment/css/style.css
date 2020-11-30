@@ -140,17 +140,29 @@ a {
 .shop-page .collection-page .items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .shop-page .collection-page .items .collection-item {
   display: flex;
   flex-direction: column;
+  width: 25%;
+  height: 385px;
   overflow: hidden;
+  padding: 10px;
+}
+
+.shop-page .collection-page .items .collection-item .image {
+  width: 321px;
+  height: 350px;
 }
 
 .shop-page .collection-page .items .collection-item .collection-footer {
   display: flex;
   justify-content: space-between;
+  padding: 5px;
+}
+
+.shop-page .collection-page .items .collection-item .custom-button {
+  margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */

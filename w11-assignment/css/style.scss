@@ -141,16 +141,28 @@ a {
     .items {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
 
       .collection-item {
         display: flex;
         flex-direction: column;
+        width: 25%;
+        height: 385px;
         overflow: hidden;
+        padding: 10px;
+
+        .image {
+          width: 321px;
+          height: 350px;
+        }
 
         .collection-footer {
           display: flex;
           justify-content: space-between;
+          padding: 5px;
+        }
+
+        .custom-button {
+          margin-top: 15px;
         }
       }
     }
